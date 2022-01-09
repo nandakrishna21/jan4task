@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan 4 Form</title>
+    <link rel="stylesheet" href="index.css"/>  
+</head>
+<body>
+    <div class="container">
+        <h1>Sign up</h1>
+        <form class="form"action="">
+            <div class="form-control">
+                <label for="">User Name</label>
+                <input  id="username" type="text" placeholder="Enter Username" >
+                <small id="usernameerror">Error message</small>   
+            </div>
+            <div class="form-control">
+                <label for="">Email</label>
+                <input type="email" id="email" placeholder="Enter Email">
+                <small id="emailerror">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password</label>
+                <input type="password" id="password" placeholder="password">
+                <small id="passworderror">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for=""> Confirm Password</label>
+                <input type="password" placeholder="Confirm Password " id="password2">
+                <small id="password2error">Error message</small>
+            </div>
+            <button  id="btn">Register</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
